@@ -10,7 +10,7 @@ const profileData = {
   address: "",
   messenger: "",
   photo: "image/profile.png",
-  cover: "image/coverphoto.png",
+  cover: "image/Coverphoto.png",
   specialties: ["Information Technology", "Digital products", "Creative Etrepreneurship"],
   social: {
     facebook: "https://www.facebook.com/C.Nathan.Villanueva",
