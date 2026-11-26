@@ -1,13 +1,13 @@
 :root {
   color-scheme: dark;
-  --page: #07152F;
-  --card: #102A4C;
-  --card-soft: #173B66;
-  --text: #F2F7FF;
-  --muted: #AABBD2;
-  --line: rgba(180, 203, 232, 0.16);
-  --accent: #79A8F3;
-  --accent-ink: #07152F;
+  --page: #0b0b0b;
+  --card: #1a1a1a;
+  --card-soft: #333333;
+  --text: #ffffff;
+  --muted: #d9d9d9;
+  --line: rgba(217, 217, 217, 0.12);
+  --accent: #ffffff;
+  --accent-ink: #0b0b0b;
   font-family: "DM Sans", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,7 +28,7 @@ body {
   margin: 0;
   color: var(--text);
   background:
-    radial-gradient(ellipse at 50% 5%, rgba(121, 168, 243, 0.12), transparent 34rem),
+    radial-gradient(ellipse at 50% 5%, rgba(217, 217, 217, 0.06), transparent 34rem),
     var(--page);
 }
 
@@ -54,7 +54,7 @@ button {
 
 .profile-card {
   overflow: hidden;
-  border: 1px solid rgba(180, 203, 232, 0.16);
+  border: 1px solid rgba(217, 217, 217, 0.12);
   border-radius: 19px;
   background: var(--card);
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.26);
@@ -65,10 +65,10 @@ button {
   height: 222px;
   overflow: hidden;
   background:
-    radial-gradient(ellipse at 72% 21%, rgba(121, 168, 243, 0.38), transparent 15%),
-    radial-gradient(ellipse at 74% 35%, rgba(49, 95, 158, 0.65), transparent 32%),
-    radial-gradient(ellipse at 46% 100%, rgba(23, 59, 102, 0.75), transparent 47%),
-    linear-gradient(118deg, #173B66 0%, #102A4C 48%, #07152F 100%);
+    radial-gradient(ellipse at 72% 21%, rgba(217, 217, 217, 0.42), transparent 15%),
+    radial-gradient(ellipse at 74% 35%, rgba(107, 107, 107, 0.6), transparent 32%),
+    radial-gradient(ellipse at 46% 100%, rgba(51, 51, 51, 0.75), transparent 47%),
+    linear-gradient(118deg, #333333 0%, #1a1a1a 48%, #0b0b0b 100%);
 }
 
 .cover::before,
@@ -76,7 +76,7 @@ button {
   position: absolute;
   width: 510px;
   height: 510px;
-  border: 1px solid rgba(180, 203, 232, 0.18);
+  border: 1px solid rgba(217, 217, 217, 0.18);
   border-radius: 50%;
   content: "";
   transform: rotate(-24deg) scaleY(0.43);
@@ -86,10 +86,10 @@ button {
   top: -287px;
   right: -52px;
   box-shadow:
-    0 0 0 24px rgba(180, 203, 232, 0.035),
-    0 0 0 52px rgba(180, 203, 232, 0.04),
-    0 0 0 80px rgba(180, 203, 232, 0.035),
-    0 0 0 109px rgba(180, 203, 232, 0.025);
+    0 0 0 24px rgba(217, 217, 217, 0.035),
+    0 0 0 52px rgba(217, 217, 217, 0.04),
+    0 0 0 80px rgba(217, 217, 217, 0.035),
+    0 0 0 109px rgba(217, 217, 217, 0.025);
 }
 
 .cover::after {
@@ -97,14 +97,14 @@ button {
   bottom: -425px;
   width: 600px;
   height: 600px;
-  border-color: rgba(180, 203, 232, 0.12);
-  box-shadow: 0 0 0 35px rgba(180, 203, 232, 0.025), 0 0 0 75px rgba(180, 203, 232, 0.02);
+  border-color: rgba(217, 217, 217, 0.12);
+  box-shadow: 0 0 0 35px rgba(217, 217, 217, 0.025), 0 0 0 75px rgba(217, 217, 217, 0.02);
 }
 
 .cover-orbit {
   position: absolute;
   z-index: 1;
-  border: 1px solid rgba(180, 203, 232, 0.22);
+  border: 1px solid rgba(217, 217, 217, 0.22);
   border-radius: 50%;
   transform: rotate(-29deg) scaleY(0.42);
 }
@@ -121,7 +121,7 @@ button {
   left: 28%;
   width: 320px;
   height: 320px;
-  border-color: rgba(180, 203, 232, 0.12);
+  border-color: rgba(217, 217, 217, 0.12);
 }
 
 .cover-caption {
@@ -129,7 +129,7 @@ button {
   right: 30px;
   bottom: 24px;
   z-index: 2;
-  color: rgba(242, 247, 255, 0.82);
+  color: rgba(255, 255, 255, 0.82);
   font-size: 11px;
   letter-spacing: 0.03em;
 }
@@ -162,10 +162,10 @@ button {
   border: 5px solid var(--card);
   border-radius: 50%;
   background:
-    radial-gradient(circle at 34% 24%, rgba(242, 247, 255, 0.72), transparent 21%),
-    linear-gradient(145deg, #79A8F3 2%, #315F9E 48%, #102A4C 100%);
-  box-shadow: inset 0 0 0 1px rgba(242, 247, 255, 0.26), 0 5px 24px rgba(0, 0, 0, 0.3);
-  color: #F2F7FF;
+    radial-gradient(circle at 34% 24%, rgba(255, 255, 255, 0.72), transparent 21%),
+    linear-gradient(145deg, #d9d9d9 2%, #6b6b6b 48%, #333333 100%);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.26), 0 5px 24px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
   font-family: "Manrope", sans-serif;
   font-size: 29px;
   font-weight: 700;
@@ -219,14 +219,14 @@ a:focus-visible {
 }
 
 .button-secondary {
-  border-color: rgba(180, 203, 232, 0.18);
-  background: rgba(242, 247, 255, 0.025);
-  color: #DCE8F7;
+  border-color: rgba(217, 217, 217, 0.18);
+  background: rgba(255, 255, 255, 0.025);
+  color: #d9d9d9;
 }
 
 .button-secondary:hover {
-  border-color: rgba(180, 203, 232, 0.32);
-  background: rgba(242, 247, 255, 0.07);
+  border-color: rgba(217, 217, 217, 0.32);
+  background: rgba(255, 255, 255, 0.07);
 }
 
 .button-primary {
@@ -235,7 +235,7 @@ a:focus-visible {
 }
 
 .button-primary:hover {
-  background: #DCE8F7;
+  background: #d9d9d9;
   color: var(--accent-ink);
 }
 
@@ -245,7 +245,7 @@ a:focus-visible {
 
 .eyebrow {
   margin: 0;
-  color: var(--muted);
+  color: #a9a9a9;
   font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.16em;
@@ -289,7 +289,7 @@ h1 {
 
 .role {
   margin: 0;
-  color: #DCE8F7;
+  color: #d9d9d9;
   font-size: 14px;
 }
 
@@ -299,7 +299,7 @@ h1 {
 
 .role-separator {
   padding: 0 4px;
-  color: var(--muted);
+  color: #6b6b6b;
 }
 
 .location {
@@ -340,7 +340,7 @@ h1 {
 .bio {
   max-width: 440px;
   margin-bottom: 19px;
-  color: #C0D0E5;
+  color: #b8b8b8;
   font-size: 13px;
   line-height: 1.8;
 }
@@ -353,17 +353,17 @@ h1 {
 
 .specialties span {
   padding: 7px 10px;
-  border: 1px solid rgba(180, 203, 232, 0.14);
+  border: 1px solid rgba(217, 217, 217, 0.12);
   border-radius: 7px;
-  background: rgba(242, 247, 255, 0.025);
-  color: #DCE8F7;
+  background: rgba(255, 255, 255, 0.025);
+  color: #d9d9d9;
   font-size: 10px;
 }
 
 .contact-panel {
   align-self: start;
   padding: 17px 17px 12px;
-  border: 1px solid rgba(180, 203, 232, 0.14);
+  border: 1px solid rgba(217, 217, 217, 0.11);
   border-radius: 12px;
   background: var(--card-soft);
 }
@@ -391,9 +391,9 @@ h1 {
   height: 32px;
   flex: 0 0 32px;
   place-items: center;
-  border: 1px solid rgba(180, 203, 232, 0.16);
+  border: 1px solid rgba(217, 217, 217, 0.16);
   border-radius: 9px;
-  background: rgba(121, 168, 243, 0.08);
+  background: rgba(255, 255, 255, 0.06);
   color: var(--accent);
 }
 
@@ -406,13 +406,13 @@ h1 {
   display: grid;
   min-width: 0;
   gap: 3px;
-  color: var(--muted);
+  color: #b0b0b0;
   font-size: 10px;
 }
 
 .contact-copy strong {
   overflow: hidden;
-  color: #F2F7FF;
+  color: #ffffff;
   font-size: 11px;
   font-weight: 600;
   text-overflow: ellipsis;
@@ -421,7 +421,7 @@ h1 {
 
 .contact-arrow {
   margin-left: auto;
-  color: var(--muted);
+  color: #8c8c8c;
   font-size: 15px;
 }
 
@@ -437,7 +437,7 @@ h1 {
   padding: 4px 2px;
   border: 0;
   background: transparent;
-  color: #DCE8F7;
+  color: #c4c4c4;
   cursor: pointer;
   font-size: 10px;
 }
@@ -456,12 +456,12 @@ h1 {
   justify-content: space-between;
   padding: 15px 0 18px;
   border-top: 1px solid var(--line);
-  color: var(--muted);
+  color: #7a7a7a;
   font-size: 10px;
 }
 
 .card-footer > span:first-child {
-  color: #DCE8F7;
+  color: #d0d0d0;
 }
 
 .wave {
@@ -471,7 +471,7 @@ h1 {
 
 .page-footnote {
   margin: 19px 0 0;
-  color: var(--muted);
+  color: #6b6b6b;
   font-size: 9px;
   font-weight: 600;
   letter-spacing: 0.16em;
@@ -484,11 +484,11 @@ h1 {
   bottom: 20px;
   z-index: 5;
   padding: 11px 16px;
-  border: 1px solid rgba(180, 203, 232, 0.18);
+  border: 1px solid rgba(217, 217, 217, 0.18);
   border-radius: 9px;
-  background: #102A4C;
+  background: #333333;
   box-shadow: 0 10px 35px rgba(0, 0, 0, 0.35);
-  color: #F2F7FF;
+  color: #ffffff;
   font-size: 12px;
   opacity: 0;
   pointer-events: none;
@@ -669,7 +669,7 @@ h1 {
 .link-group {
   min-width: 0;
   padding: 19px;
-  border: 1px solid rgba(180, 203, 232, 0.14);
+  border: 1px solid rgba(217, 217, 217, 0.11);
   border-radius: 12px;
   background: var(--card-soft);
 }
@@ -706,15 +706,15 @@ h1 {
   align-items: center;
   gap: 9px;
   padding: 8px 10px;
-  border: 1px solid rgba(180, 203, 232, 0.10);
+  border: 1px solid rgba(217, 217, 217, 0.08);
   border-radius: 8px;
-  background: rgba(242, 247, 255, 0.018);
+  background: rgba(255, 255, 255, 0.018);
   transition: background 160ms ease, border-color 160ms ease;
 }
 
 .profile-link:hover {
-  border-color: rgba(121, 168, 243, 0.45);
-  background: rgba(121, 168, 243, 0.08);
+  border-color: rgba(217, 217, 217, 0.22);
+  background: rgba(255, 255, 255, 0.055);
 }
 
 .profile-link-icon {
@@ -724,7 +724,7 @@ h1 {
   flex: 0 0 27px;
   place-items: center;
   border-radius: 7px;
-  background: rgba(121, 168, 243, 0.14);
+  background: rgba(255, 255, 255, 0.08);
   color: var(--accent);
   font-size: 10px;
   font-weight: 700;
@@ -739,7 +739,7 @@ h1 {
 
 .profile-link-label {
   overflow: hidden;
-  color: #DCE8F7;
+  color: #d9d9d9;
   font-size: 10px;
   font-weight: 600;
   text-overflow: ellipsis;
