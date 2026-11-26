@@ -210,7 +210,7 @@ function renderProfile() {
   const cover = document.querySelector("#profile-cover");
   cover.classList.toggle("has-photo", Boolean(profile.cover));
   cover.style.backgroundImage = profile.cover
-    ? `linear-gradient(rgba(11, 11, 11, 0.1), rgba(11, 11, 11, 0.24)), url("${profile.cover}")`
+    ? `linear-gradient(rgba(7, 21, 47, 0.1), rgba(7, 21, 47, 0.24)), url("${profile.cover}")`
     : "";
   cover.setAttribute("aria-label", profile.cover ? "Profile cover photo" : "Abstract monochrome charcoal cover artwork");
 
